@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42270c79c4811774aaf86ec9139c8eb3, type: 3}
   m_Name: BOSSENTITY
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 5000

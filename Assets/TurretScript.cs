@@ -44,7 +44,7 @@ public class TurretScript : MonoBehaviour
 
     void FireBullet()
     {
-        Instantiate(_bullet, transform.position + transform.forward * 2, transform.rotation);
+        Instantiate(_bullet, transform.position + transform.localScale.x * transform.forward * 2, transform.rotation);
     }
 
     bool CheckLineofSights(Transform obj)
