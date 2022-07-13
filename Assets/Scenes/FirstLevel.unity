@@ -12447,6 +12447,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2376484811293051840, guid: a45e66436f3e79f4eaf9985cf216c092, type: 3}
+      propertyPath: shootDelay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376484811293051846, guid: a45e66436f3e79f4eaf9985cf216c092, type: 3}
+      propertyPath: _entity
+      value: 
+      objectReference: {fileID: 11400000, guid: e2dde8e6060d9bf4fa8f9d67ec936a82, type: 2}
     - target: {fileID: 2376484811293051847, guid: a45e66436f3e79f4eaf9985cf216c092, type: 3}
       propertyPath: m_RootOrder
       value: 1
