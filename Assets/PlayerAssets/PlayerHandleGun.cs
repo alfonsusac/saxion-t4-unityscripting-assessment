@@ -146,7 +146,7 @@ public class PlayerHandleGun : MonoBehaviour
                 t: Time.deltaTime * 10 * Time.timeScale);
         }
         gunAndHandModel.Rotate(PauseMenu.GameIsPaused ? 0f : -Input.GetAxis("Mouse Y"), PauseMenu.GameIsPaused ? 0f : Input.GetAxis("Mouse X"), 0);
-
+        
     //----------------------------------------------
     // Text GUI Update
 
